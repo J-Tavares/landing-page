@@ -20,15 +20,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: black;
-
 }
 
 .links {
     display: flex;
     justify-content: flex-end;
     margin-right: 150px;
-    align-items: center;
-
+    align-items: center;  
 }
 
 .link-one:hover,
@@ -55,6 +53,21 @@
     height: 80px; 
     margin-left: 150px;
     border-radius: 50%;
+}
+
+.description-container {
+    display: flex;
+    padding: 50px 0;
+    border: 2px solid black;
+}
+
+.description-items {
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+}
+
+.title {
 
 }
 
