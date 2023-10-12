@@ -75,12 +75,12 @@
 .title {
     margin: 5px 0;
     font-size: 48px;
+    font-weight: 800;
 }
 
 .paragraph {
     font-size: 18px;
     margin: 5px 0;
-
 }
 
 .learn {
@@ -100,3 +100,110 @@
     border-radius: 10px;
 }
 
+.sect-two-container {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.sect-two-header {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.story-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+/* .story-one-container { */
+    /* border: 2px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* width: 100%;
+    height: auto; */
+    /* margin-left: 80px; */
+    /* flex-wrap: wrap; */
+/* } */
+
+.story-one-container,
+.story-three-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%;
+    height: auto; */
+    margin: 0 80px;
+}
+
+
+.pood-one,
+.pood-two,
+.pood-three {
+    height: 300px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.pood-one-text,
+.pood-two-text,
+.pood-three-text {
+    margin: 0 40px;
+   
+}
+
+.story-two-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* width: 25%; */
+    /* flex-wrap: wrap; */
+    
+}
+
+/* .story-three-container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* width: 25%;
+    height: auto;
+    flex-wrap: wrap; */
+    /* margin-right: 80px;
+} */
+
+.mid-sect {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    background-color: #006aff;
+    height: 50rem;
+    justify-content: center;
+}
+
+.quote {
+    /* display: flex;
+    justify-content: center; */
+    font-size: 36px;
+    color: white;
+
+}
+
+.signature {
+    /* display: flex;
+    justify-content: end; */
+    /* border: 2px solid red; */
+    margin-left: 63rem;
+    margin-top: 8px;
+    color: white;
+}
